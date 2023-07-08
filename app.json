@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "zomato_clone",
+    "name": "Hms Foods",
     "slug": "zomato_clone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,29 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"
+        }
+      },
+      "versionCode": 1,
+      "package": "com.hmssameer.zomato_clone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f73e9519-2b90-44a3-9997-84154a926293"
+      }
     }
   }
 }
